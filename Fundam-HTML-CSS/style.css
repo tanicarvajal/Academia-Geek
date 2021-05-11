@@ -1,0 +1,10 @@
+h1, h2, h3{
+    color: #000;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+}
+p{
+    color: #757575;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
