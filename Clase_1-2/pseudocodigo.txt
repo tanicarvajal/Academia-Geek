@@ -1,0 +1,27 @@
+algoritmo_llamar_a_un_compañero
+
+Inicio
+1. Buscar el celular
+2. Desbloquear el celular
+3. Buscar el número del compañero
+4. Iniciar la llamada al compañero 
+	Si ---> 5. Hablar con el compañero
+	No ---> Repetir llamada
+6. Terminar llamada
+Fin
+
+----------------------------------------------------------------------
+
+Algortimo__calcular_edad_persona
+
+Inicio
+Var: (aa) Año actual =2021, (an) año de nacimiento, (ep) edadPersona
+ingrese an
+lea: año nacimiento
+ep=Aa-An
+imprima edadPersona
+
+Enteros (int) = numeros enteros
+Real= numeros decimales
+Var= se usa en JS
+
