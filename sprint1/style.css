@@ -1,0 +1,32 @@
+*{
+    margin: 5%;
+}
+
+.container {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+.text-center{
+    text-align: center;
+}
+
+.border{
+    border: goldenrod;
+    border-style: double;
+}
+
+label input {
+    text-align: left;
+    align-items: center;
+}
+
+button {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(197, 47, 47);
+    border-color: rgb(102, 3, 3);
+    borde
+}
+
+#porcentajedescuento {
+    color: rgb(231, 21, 21);
+}

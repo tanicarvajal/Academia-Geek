@@ -4,27 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>Sprint1</title>
 </head>
 <body>
-    <div>
-        <h1>Almacen de computadores</h1>
-        <label>Cantidad de computadores comprados</label>
-        <input type="text" id="idCantidad">
-        <button onclick="Calcular()">Calcular</button>
+    <div class="container">
+        <div class="border">
+            <h1 class="text-center">Almacen de computadores</h1>
+            <label>Cantidad de computadores comprados:</label>
+            <input type="text" id="idCantidad">
+            <button onclick="Calcular()">Calcular</button>
+        </div>
+        <div class="border text-center">
+            <h1 class="text-center"">Orden de compra</h1>
+            <label>Valor de compra:</label>
+            <br>
+            <input type="text" id="valor_compra"><br>
+            <label>Valor de descuento:</label>
+            <br>
+            <input type="text" id="valordescuento"><br>
+            <label>Total:</label>
+            <br>
+            <input type="text" id="total">
+        </div>
+        <div id="porcentajedescuento"> </div>
     </div>
-    <div>
-        <h1>Orden de compra</h1>
-        <img>
-        <label>Valor de compra</label>
-        <input type="text" id="valor_compra"><br>
-        <label>Valor de descuento</label>
-        <input type="text" id="valordescuento"><br>
-        <label>Total</label>
-        <input type="text" id="total">
-    </div>
-    <div id="porcentajedescuento"> </div>
-    
  <script src="./script.js"></script>
 </body>
 </html>
