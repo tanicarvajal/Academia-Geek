@@ -38,18 +38,3 @@ function Calcular(){
     total = valorcompra - descuento;
     document.getElementById('total').value = total;
 }
-
-    // function Calcular (precio){
-    //     if (precio >= precio*2 && precio <= precio*4){
-    //         document.write(-15% de descuento);
-    //     }
-    //     else if(precio > precio*4 && precio <= precio*8){
-    //         document.write(-25% de descuento);
-    //     }
-    //     else if(precio > precio*8 && precio <= precio*12){
-    //         document.write(-35% de descuento)
-    //     }
-    //     else (precio > precio*12){
-    //         document.write(No hay descuento)
-    //     }
-    // }
