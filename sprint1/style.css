@@ -4,6 +4,7 @@
 
 .container {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
     }
 
 .text-center{
@@ -13,19 +14,26 @@
 .border{
     border: goldenrod;
     border-style: double;
+    border-width: 8px;
 }
 
 label input {
-    text-align: left;
     align-items: center;
+    display:inline-block;
 }
 
 button {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: rgb(197, 47, 47);
     border-color: rgb(102, 3, 3);
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    padding: 8px 8px;
 }
 
 #porcentajedescuento {
     color: rgb(231, 21, 21);
+    text-align: center;
 }
